@@ -31,7 +31,17 @@ This app enables users to:
 - **Canvas Editor** 
   – Fabric.js for canvas manipulation  
   – Add text
-  – Add basic shapes (Rectangle, Circle, Triangle, Polygon) 
+  – Add basic shapes (Rectangle, Circle, Triangle) 
   – Layer control (background image, shapes, text)  
 
-- **Download**  
+- **Download**
+
+---
+
+## How to use it
+
+1. We can see a Search bar, where, we can enter any search value (eg. - cats), and clicking on the search button, you can see an image gallery of related images, fetched from the Pexels API.
+2. We can click on "Add Caption" button below any image to open that image in a fabric.js canvas.
+3. We can see various options of adding text and shapes.
+4. Once done, we can download the image on our machine.
+5. You can go back to the gallery by clicking on "Back to Gallery" button.
