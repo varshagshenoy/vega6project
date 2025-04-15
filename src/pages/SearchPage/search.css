@@ -1,0 +1,28 @@
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+}
+
+.img-container img {
+  width: 200px;
+  height: 200px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+  touch-action: none; /* Prevent gesture-based interference */
+}
